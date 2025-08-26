@@ -1,5 +1,5 @@
 # POE---Nando's_WEBSITE
 # My information
-- Angel RAkhumba
+- Lecturer-Angel Rakhumba
 - Student number- ST10497665
 # 
