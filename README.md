@@ -1,4 +1,4 @@
-# POE---Nando's_WEBSITE
+# POE---Nandi's_WEBSITE
 # My information
 - Lecturer-Angel Rakhumba
 - Student name- Hlomla Nandi Sidiya
