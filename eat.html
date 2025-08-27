@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Eat — Nando’s — Spicing up life with food</title>
+  <meta name="description" content="Concept website aligned to Nando’s proposal: brand story, menu highlights, careers, gift cards, and contact."/>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+  <header class="site-header">
+    <div class="container">
+
+      <nav class="nav" aria-label="Primary">
+        <div class="brand">
+          <div class="logo" aria-hidden="true"></div>
+          <a class="name" href="index.html" aria-label="Go to home">Nando’s</a>
+        </div>
+        <div class="navlinks" role="menubar">
+          <a href="index.html" role="menuitem" >Home</a>
+          <a href="eat.html" role="menuitem" aria-current="page">Eat</a>
+          <a href="explore.html" role="menuitem" >Explore</a>
+          <a href="work.html" role="menuitem" >Work</a>
+          <a href="gift-cards.html" role="menuitem" >Gift Cards</a>
+          <a href="contact.html" role="menuitem" class="cta" >Contact</a>
+        </div>
+      </nav>
+
+    </div>
+  </header>
+  <main id="main">
+
+<section class="section">
+  <div class="container">
+    <p class="kicker">Eat</p>
+    <h2>Menu & Nearby Locations</h2>
+    <p class="lead">Find your nearest restaurant and plan your order. Heat levels for every palate.</p>
+    <div class="grid">
+      <div class="card" style="grid-column:span 7">
+        <img src="https://images.pexels.com/photos/4106480/pexels-photo-4106480.jpeg" alt="Chicken grilled over open flames">
+        <div class="content">
+          <h3>Popular This Week</h3>
+          <ul>
+            <li>1/2 Chicken + 2 Sides</li>
+            <li>PERi Chicken Wrap</li>
+            <li>Spicy Rice & PERi Chips</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card" style="grid-column:span 5">
+        <div class="content">
+          <h3>Store Locator</h3>
+          <form class="grid" style="grid-template-columns:1fr 1fr;gap:12px">
+            <div style="grid-column:span 2">
+              <label for="city">City</label>
+              <input id="city" class="input" type="text" placeholder="e.g., Johannesburg" required/>
+            </div>
+            <div>
+              <label for="radius">Radius (km)</label>
+              <select id="radius" class="input">
+                <option>5</option><option selected>10</option><option>20</option><option>50</option>
+              </select>
+            </div>
+            <div style="display:flex;align-items:flex-end;justify-content:flex-end">
+              <button class="button" type="submit">Search</button>
+            </div>
+          </form>
+          <p class="notice" style="margin-top:10px">Demo: front-end mock. Integrate a maps/places API for production.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  </main>
+  <footer>
+    <div class="container wrap">
+      <div>
+        <strong>Nando’s (Concept)</strong><br/>
+        <small class="muted">Spicing up life with food.</small>
+      </div>
+      <div style="text-align:right">
+        <small class="muted">© <span data-year></span> Concept build for coursework. Not affiliated with the Nando’s brand.</small>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
