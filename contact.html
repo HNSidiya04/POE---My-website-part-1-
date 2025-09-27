@@ -40,5 +40,25 @@
         <label for="name">Name</label>
         <input id="name" class="input" name="name" required placeholder="Your full name"/>
       </div>
+       <div>
+        <label for="email">Email</label>
+        <input id="email" class="input" type="email" name="email" required placeholder="you@example.com"/>
+      </div>
+      <div style="grid-column:span 2">
+        <label for="topic">Topic</label>
+        <select id="topic" class="input" name="topic">
+          <option>General</option>
+          <option>Order issue</option>
+          <option>Compliment</option>
+          <option>Careers</option>
+        </select>
+      </div>
+      <div style="grid-column:span 2">
+        <label for="message">Message</label>
+        <textarea id="message" class="input" name="message" rows="5" required placeholder="How can we help?"></textarea>
+      </div>
+      <div style="grid-column:span 2;display:flex;justify-content:flex-end;gap:10px">
+        <button class="button" type="submit">Send</button>
+      </div>
 </body>
 </html>
