@@ -2,6 +2,225 @@
    Comments explain structure and choices for the assignment.
 */
 
+
+*{margin:0;
+ padding:0;
+ box-sizing:border-box;
+}
+
+body { 
+  font-family: 'inter', 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(to bottom, #111, #000);
+  color: #fff;
+  line-height: 1.6;
+  padding: 2rem;
+}
+/* Welcome text */
+h1, h2, h3 {
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+h1 span {
+  color: #fff;
+}
+
+h1 strong {
+  color: #ff2d2d; /* Accent red for bold vibe */
+}
+
+/* Subheading */
+p {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-bottom: 2rem;
+}
+
+/* Tags (Fast & Accessible, etc.) */
+.tags {
+  display: flex;
+  gap: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+.tags span {
+  background: #222;
+  border: 1px solid #333;
+  padding: 0.4rem 0.9rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  color: #eee;
+}
+
+/* Card style for highlights */
+.card {
+  background: #111;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(73, 14, 14, 0.6);
+  max-width: 400px;
+}
+
+.card h3 {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  color: #bbb;
+  font-size: 0.95rem;
+  margin-bottom: 1.2rem;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  background: #ff2d2d;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #ff4444;
+}
+
+/* =========================
+   NAVIGATION
+   ========================= */
+header {
+  background: #111;
+  padding: 0.8rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.logo-circle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: red;
+}
+
+.logo-text {
+  font-weight: 700;
+  color: limegreen;
+  font-size: 1.1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 600;
+  color: limegreen;
+  padding: 0.4rem 0.9rem;
+  border-radius: 8em;
+  transition: all 0.3s ease;
+}
+
+nav a[aria-current="page"] {
+  background: red;
+  color: #fff;
+}
+
+nav a.contact {
+  background: limegreen;
+  color: #000;
+}
+
+/* =========================
+   CARDS
+   ========================= */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.card {
+  background: #111;
+  padding: 1.5rem;
+  border-radius: 14px;
+  box-shadow: 0 4em 12em rgba(0,0,0,0.6);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8em;
+  margin-bottom: 0.8rem;
+}
+
+.card h3 {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  color: #bbb;
+  font-size: 0.95rem;
+  margin-bottom: 1.2rem;
+}
+
+/* Buttons */
+.btn-red {
+  display: inline-block;
+  background: red;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.75rem 1.2rem;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn-red:hover {
+  background: #ff4444;
+}
+
+/* =========================
+   FOOTER
+   ========================= */
+footer {
+  background: #111;
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #aaa;
+  font-size: 0.85rem;
+}
+
+footer strong {
+  color: #fff;
+}
+
+footer small {
+  display: block;
+  color: #777;
+}
+
+
 /* Basic resets */
 * { box-sizing: border-box; margin:0; padding:0; }
 html,body { height:100%; background:#fff; color:#222; line-height:1.5; }
