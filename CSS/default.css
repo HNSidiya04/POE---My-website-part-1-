@@ -15,6 +15,8 @@ body {
   line-height: 1.6;
   padding: 2rem;
 }
+
+
 /* Welcome text */
 h1, h2, h3 {
   font-weight: 800;
@@ -118,9 +120,10 @@ header {
 
 .logo-text {
   font-weight: 700;
-  color: limegreen;
+  color: green;
   font-size: 1.1rem;
 }
+
 
 nav ul {
   list-style: none;
@@ -132,7 +135,7 @@ nav ul {
 nav a {
   text-decoration: none;
   font-weight: 600;
-  color: limegreen;
+  color: green;
   padding: 0.4rem 0.9rem;
   border-radius: 8em;
   transition: all 0.3s ease;
