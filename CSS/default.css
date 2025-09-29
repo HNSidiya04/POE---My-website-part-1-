@@ -33,7 +33,7 @@ h1 span {
 }
 
 h1 strong {
-  color: #ff2d2d; /* Accent red for bold vibe */
+  color: #47a926; /* Accent red for bold vibe */
 }
 
 /* Subheading */
@@ -82,8 +82,8 @@ p {
 /* Button */
 .btn {
   display: inline-block;
-  background: #ff2d2d;
-  color: #fff;
+  background: #07a932;
+  color: #0cb53f;
   font-weight: 600;
   padding: 0.75rem 1.5rem;
   border-radius: 10px;
@@ -123,6 +123,28 @@ header {
   font-weight: 700;
   color: green;
   font-size: 1.1rem;
+}
+
+.logo {
+  width: 150px;  /* adjust size */
+  height: auto;  /* keeps proportions */
+}
+
+.logo {
+  height: 80px;
+  width: auto;
+}
+
+.logo {
+  max-width: 200px;  /* won’t grow beyond this */
+  width: 100%;       /* shrinks with parent container */
+  height: auto;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column; /* stack vertically */
+  gap: 20px;              /* uniform spacing between cards */
 }
 
 
@@ -186,10 +208,26 @@ nav a.contact {
   margin-bottom: 1.2rem;
 }
 
+.card {
+  margin-bottom: 20px; /* adjust spacing as needed */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* adds equal spacing between all children */
+}
+.card {
+  padding: 16px; /* space inside the card */
+  margin-bottom: 20px; /* space outside */
+  border-radius: 8px;  /* keeps rounded corners */
+  background: #fff;    /* optional, makes spacing more visible */
+}
+
 /* Buttons */
 .btn-red {
   display: inline-block;
-  background: red;
+  background: rgb(21, 138, 33);
   color: #fff;
   font-weight: 600;
   padding: 0.75rem 1.2rem;
@@ -199,7 +237,7 @@ nav a.contact {
 }
 
 .btn-red:hover {
-  background: #ff4444;
+  background: #185b35;
 }
 
 /* =========================
@@ -279,9 +317,17 @@ input, textarea, select { padding:0.6rem; border:1px solid #ddd; border-radius:6
 .maps .map-grid { display:grid; grid-template-columns:1fr 1fr; gap:1rem; }
 .maps iframe { width:100%; height:240px; border:0; border-radius:6px; }
 
-/* Responsive */
-@media (max-width:800px){
-  .hero-inner { flex-direction:column-reverse; text-align:center; }
-  .header-inner { flex-direction:column; gap:0.5rem; align-items:flex-start; }
-  .maps .map-grid { grid-template-columns:1fr; }
+/*responsive cards for small screens */
+@media (max-width: 500px) and (min-width: 10px) {
+  .card {
+    margin-bottom: 15px;     /* reduce spacing for small screens */
+    padding: 10px;           /* smaller padding */
+    font-size: 14px;         /* adjust text size */
+  }
+
+  .card img {
+    width: 100%;             /* make images responsive */
+    height: auto;            /* keep aspect ratio */
+    border-radius: 8px;
+  }
 }
