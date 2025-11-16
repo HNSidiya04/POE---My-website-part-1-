@@ -106,14 +106,6 @@ header {
   align-items: center;
 }
 
-/* Forms */
-form {
-  display: grid;
-  gap: 0.6rem;
-  max-width: 40rem; /* 640px => 40rem */
-}
-
-
 .logo {
   display: flex;
   align-items: center;
