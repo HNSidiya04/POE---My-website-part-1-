@@ -72,6 +72,32 @@
         <p id="contactMsg" class="muted" aria-live="polite"></p>
       </form>
     </section>
+    <br>
+    <!-- Leaflet Map Section (below form) -->
+<h3 style="margin-top:40px">Find Us</h3>
+<div id="map"></div>
+
+
+</div>
+</section>
+</main>
+
+<!-- Leaflet JS and Map Initialization -->
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script>
+var map = L.map('map').setView([-26.2041, 28.0473], 10);
+
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+maxZoom: 19,
+}).addTo(map);
+
+
+L.marker([-26.2041, 28.0473]).addTo(map)
+.bindPopup('Nearest Nando\'s (Example Location)').openPopup();
+</script>
+
   
     <div class="notice" style="margin-top:12px">
       For urgent queries, call your nearest restaurant.
