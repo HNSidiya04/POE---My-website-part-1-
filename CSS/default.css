@@ -1,6 +1,23 @@
 /* style.css - main stylesheet
    Comments explain structure and choices for the assignment.
-*/
+*//* Basic resets */
+* { box-sizing: border-box; margin:0; padding:0; }
+html,body { height:100%; background:#fff; color:#222; line-height:1.5; }
+.container { max-width:1100px; margin:0 auto; padding: 1.25rem; }
+
+/* Header */
+.site-header { background: #fff; border-bottom:1px solid #eee; position:sticky; top:0; z-index:10; }
+.header-inner { display:flex; align-items:center; justify-content:space-between; gap:1rem; }
+.logo img { height:48px; display:block; }
+
+/* Navigation */
+.main-nav li { list-style:none; display:flex; gap:1rem; align-items:center; }
+.main-nav a { text-decoration:none; color:var(--muted); font-weight:600; padding:0.5rem; }
+.main-nav a[aria-current="page"] { color:var(--brand); }
+
+/* Buttons */
+.btn { display:inline-block; background:var(--brand); color:white; padding:0.6rem 1rem; border-radius:8px; text-decoration:none; font-weight:700; }
+
 
 
 *{margin:0;
