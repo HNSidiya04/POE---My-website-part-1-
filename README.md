@@ -46,6 +46,7 @@ stan vision team. (2024, January 4). What makes a website “bad”? 15 examples
 Swot Analysis Of Nandos. (n.d.). Retrieved from cram: https://www.cram.com/essay/Swot-Analysis-Of-Nandos/FJ5C963S7QG
 Team Nandocas 2016. (n.d.). Market. Retrieved from Nandocas: https://nandocas.6te.net/html/market.html#:~:text=Target%20Market&text=As%20Nandos'%20main%20target%20group,children%20(Marcus%2C%202009).
 
+web dev tutorials. (2022,July 6). How to Easily Create an Image Lightbox Gallery (with LightBox library) - HTML, CSS & JavaScript. Retrieved from YouTube:https://www.youtube.com/watch?v=niDCApr3hvw&t=79s
 
 ## License
 Educational use only.
