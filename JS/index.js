@@ -19,3 +19,15 @@ lightbox.addEventListener('click', e => {
     if (e.target !== e.currentTarget) return;
     lightbox.classList.remove('active');
 });
+
+/*-------------------NAVIGATION BAR FUNCTION-------------------*/
+function mymenufunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+
+    } 
+    else {
+        x.className = "topnav";
+    }  
+
