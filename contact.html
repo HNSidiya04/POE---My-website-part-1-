@@ -10,10 +10,10 @@
 <body>
 
     <a href="#main" class="skip-link">
-     <img src="Images/ChatGPT Image Aug 24, 2025, 12_31_54 PM.png" alt="Nando's Logo" class="logo"></a>
+    
     <header class="site-header">
         <div class="container">
-         <div class="container">
+        
            
     
         <nav class="nav" aria-label="Primary">
@@ -42,6 +42,8 @@
     <h2>Questions, Complaints, Compliments</h2>
     <section class="contact-form">
       
+     <section class="contact-form">
+      <h2>Send a message</h2>
       <br>
       <form id="contactForm" action="#" method="post" novalidate>
         <label for="cname">Name</label>
@@ -50,27 +52,14 @@
         <label for="cemail">Email</label>
         <input id="cemail" name="email" type="email" required />
 
-        
- <div style="grid-column:span 2">
-        <label for="topic">Topic</label>
-        <select id="topic" class="input" name="topic">
-          <option>General</option>
-          <option>Order issue</option>
-          <option>Compliment</option>
-          <option>Careers</option>
-        </select>
-      </div>
-      
-
         <label for="cmessage">Message</label>
         <textarea id="cmessage" name="message" rows="5" required></textarea>
-        <br>
 
         <button  type="submit">Send</button>
         <p id="contactMsg" class="muted" aria-live="polite"></p>
-
       </form>
     </section>
+  
     <div class="notice" style="margin-top:12px">
       For urgent queries, call your nearest restaurant.
     </div>
